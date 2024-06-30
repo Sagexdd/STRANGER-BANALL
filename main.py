@@ -24,11 +24,11 @@ from datetime import datetime
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
-API_ID = int(os.getenv("API_ID", ""))
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-OWNER_ID = os.getenv("OWNER_ID", "")
-SUDO_ID = "6868182331"
+API_ID = "21827814"
+API_HASH = "af097d21fa5049b0ed0d614ed3b885cd"
+BOT_TOKEN = "7369149161:AAFAoyZ818kS-St-mpcy2TTumzFlLFZWAX8"
+OWNER_ID = "7376728791"
+SUDO_ID = "7376728791"
 LUCIFER = "6762113050"
 COWNER_ID = "6919199044"
 OP  = [ int(OWNER_ID), int(SUDO_ID), int(COWNER_ID), int(LUCIFER)]
